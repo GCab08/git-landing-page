@@ -1,9 +1,8 @@
 body {
-    background-color: black;
-    
+    background-color: black; 
 }
 
-.header-container {
+.first-container {
     display: flex;
     background-color: #1f2937;
     height: 50px;
@@ -26,8 +25,7 @@ body {
     list-style-type: none;
     flex: 1;
     gap: 20px;
-    margin-right: 200px;
-    
+    margin-right: 200px;   
 }
 
 a {
@@ -91,4 +89,130 @@ gap: 10px;
     width: 400px;
     align-items: center;
     justify-content: center;
+}
+
+.second-container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 325px;
+    margin-right: 325px;
+    height: 400px;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.second-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 50px
+}
+
+.image-box-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 150px;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-text {
+    color: #1f2937;
+    text-align: center;
+}
+
+#rcorners {
+    border-radius: 25px;
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin-left: 325px;
+    margin-right: 325px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 750px;
+    padding: 0;
+    margin: 0;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-left: 40%;
+}
+
+.fourth-container {
+    display: flex;
+    background-color: white;
+    margin-left: 325px;
+    margin-right: 325px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.call-box {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 120px;
+    width: 800px;
+
+}
+
+.call-title {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.call-text {
+    color: white;
+    font-size: 18px;
+}
+
+.signup-second {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+
+.footer {
+    background-color: #1f2937;
+    margin-left: 325px;
+    margin-right: 325px;
+    text-align: center;
+    color: #f9faf8;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
